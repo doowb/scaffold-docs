@@ -1,0 +1,36 @@
+{
+  "name": "scaffold-docs",
+  "description": "Scaffold to add a docs to your project.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb",
+  "repository": "https://github.com/doowb/scaffold-docs",
+  "authors": [
+    {
+      "author": "Brian Woodward",
+      "homepage": "https://github.com/doowb",
+      "email": "brian.woodward@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "targets": {
+    "docs": {
+      "isScaffold": true,
+      "files": [
+        {
+          "src": [
+            "docs/api.md",
+            "docs/getting-started.md"
+          ],
+          "dest": "docs",
+          "options": {},
+          "name": "scaffold"
+        }
+      ],
+      "options": {},
+      "key": "docs"
+    }
+  },
+  "config": {},
+  "isMetadata": true
+}
